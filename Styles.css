@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    padding: 10px 50px;
+    margin: 20px;
+    border: 10px;
+    border-style: hidden;
+    border-color: blue;
+    width: 1320px;
+    height: 100px;
+    background: linear-gradient(to left, #2b2753, #302b63, #71719f);
+    border-radius: 20px;
+    box-shadow: 0 10px 5px #1c1936;
+    
+}
+img {
+    width: 80px;
+    height: 80px;
+}
+
+div {
+    display: inline-block;
+}
+
+li {
+    display: inline;
+    margin: 10px;
+    padding: 10px;
+}
+
+.containter {
+    font-family: 'Akaya Kanadaka';
+    flex-grow: 3;
+    padding-top: 20px;
+    padding-left: 700px;
+    font-size: 29px;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+body{
+    background-image: url("https://static.videezy.com/system/resources/thumbnails/000/005/065/original/dynamic-smear-4k-motion-background-loop.jpg");
+}
